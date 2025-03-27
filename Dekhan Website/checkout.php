@@ -331,7 +331,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
     // تحميل PayPal SDK بناءً على العملة المختارة
     var script = document.createElement('script');
-    script.src = "https://www.paypal.com/sdk/js?client-id=Ad70XWU3QK4mKFW3XUXfqQDCW2Vf7U4xcSF3Mx-LL7wdxk3Z78mSEQjLkCAPKDQTOTujRjeVZW-Snt3B&currency=" + currency;
+    script.src = "https://www.paypal.com/sdk/js?client-id=???&currency=" + currency;
     script.onload = function() {
         paypal.Buttons({
             createOrder: function(data, actions) {
