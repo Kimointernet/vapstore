@@ -153,9 +153,6 @@ CREATE TABLE `email_info` (
 
 INSERT INTO `email_info` (`email_id`, `email`) VALUES
 (3, 'admin@gmail.com'),
-(6, 'kimointernet5@gmail.com'),
-(7, 'sdaswd@gmail.com'),
-(8, 'businessdannawi@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -221,10 +218,7 @@ CREATE TABLE `orders_info` (
 --
 
 INSERT INTO `orders_info` (`order_id`, `user_id`, `f_name`, `email`, `address`, `city`, `state`, `zip`, `cardname`, `cardnumber`, `expdate`, `prod_count`, `total_amt`, `cvv`) VALUES
-(1, 12, 'Puneeth', 'puneethreddy951@gmail.com', 'Bangalore, Kumbalagodu, Karnataka', 'Bangalore', 'Karnataka', 560074, 'pokjhgfcxc', '4321 2345 6788 7654', '12/90', 3, 77000, 1234),
-(2, 26, 'kimo dannawi', 'kimointernet5@gmail.com', 'oij', 'lll', 'north akkar', 0, 'fff', '6357282972639827', '12/22', 5, 165, 342),
-(8221, 26, 'kimo dannawi', 'kimointernet5@gmail.com', 'oij', 'lll', 'north akkar', 0, 'sss', '332354532525', '12/22', 0, 0, 2334),
-(8222, 26, 'kimo dannawi', 'kimointernet5@gmail.com', 'oij', 'lll', 'north akkar', 0, 'sss', '332354532525', '12/22', 0, 0, 2334);
+
 
 -- --------------------------------------------------------
 
@@ -369,12 +363,6 @@ CREATE TABLE `user_info` (
 --
 
 INSERT INTO `user_info` (`user_id`, `first_name`, `last_name`, `email`, `password`, `mobile`, `address1`, `address2`) VALUES
-(12, 'puneeth', 'Reddy', 'puneethreddy951@gmail.com', 'puneeth', '94481215', '123456789', 'sdcjns,djc'),
-(15, 'hemu', 'ajhgdg', 'puneethreddy951@gmail.com', '346778', '53648727', ',mdnbca', 'asdmhmhvbv'),
-(16, 'venky', 'vs', 'venkey@gmail.com', '1234534', '98776543', 'snhdgvajfehyfygv', 'asdjbhfkeur'),
-(26, 'kimo', 'dannawi', 'kimointernet5@gmail.com', 'kimoking123@', '81294964', 'oij', 'lll'),
-(27, 'kimo', 'dannawi', 'sdaswd@gmail.com', 'kimokimo123', '81294964', 'lkjh', 'hjj'),
-(28, 'admin', 'admin', 'admin@gmail.com', 'admin', '', '', '');
 
 --
 -- Triggers `user_info`
@@ -408,20 +396,7 @@ CREATE TABLE `user_info_backup` (
 --
 
 INSERT INTO `user_info_backup` (`user_id`, `first_name`, `last_name`, `email`, `password`, `mobile`, `address1`, `address2`) VALUES
-(12, 'puneeth', 'Reddy', 'puneethreddy951@gmail.com', '123456789', '9448121558', '123456789', 'sdcjns,djc'),
-(14, 'hemanthu', 'reddy', 'hemanthreddy951@gmail.com', '123456788', '6526436723', 's,dc wfjvnvn', 'b efhfhvvbr'),
-(15, 'hemu', 'ajhgdg', 'keeru@gmail.com', '346778', '536487276', ',mdnbca', 'asdmhmhvbv'),
-(16, 'venky', 'vs', 'venkey@gmail.com', '1234534', '9877654334', 'snhdgvajfehyfygv', 'asdjbhfkeur'),
-(19, 'abhishek', 'bs', 'abhishekbs@gmail.com', 'asdcsdcc', '9871236534', 'bangalore', 'hassan'),
-(20, 'pramod', 'vh', 'pramod@gmail.com', '124335353', '9767645653', 'ksbdfcdf', 'sjrgrevgsib'),
-(21, 'prajval', 'mcta', 'prajvalmcta@gmail.com', '1234545662', '202-555-01', 'bangalore', 'kumbalagodu'),
-(22, 'puneeth', 'v', 'hemu@gmail.com', '1234534', '9877654334', 'snhdgvajfehyfygv', 'asdjbhfkeur'),
-(23, 'hemanth', 'reddy', 'hemanth@gmail.com', 'Puneeth@123', '9876543234', 'Bangalore', 'Kumbalagodu'),
-(24, 'newuser', 'user', 'newuser@gmail.com', 'puneeth@123', '9535688928', 'Bangalore', 'Kumbalagodu'),
-(25, 'otheruser', 'user', 'otheruser@gmail.com', 'puneeth@123', '9535688928', 'Bangalore', 'Kumbalagodu'),
-(26, 'kimo', 'dannawi', 'kimointernet5@gmail.com', 'kimoking123@', '81294964', 'oij', 'lll'),
-(27, 'kimo', 'dannawi', 'sdaswd@gmail.com', 'kimokimo123', '81294964', 'lkjh', 'hjj'),
-(28, 'admin', 'admin', 'admin@gmail.com', '25f9e794323b453885f5181f1b624d0b', '', '', '');
+
 
 --
 -- Indexes for dumped tables
